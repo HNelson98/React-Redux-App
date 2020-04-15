@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import { animeReducer as anime } from './animeReducers';
+import { magicReducer as magic } from './cardReducers';
 
 export default combineReducers({
-  anime
+  magic
 });

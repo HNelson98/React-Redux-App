@@ -2,7 +2,7 @@ const initialstate ={
 
 }
 
-export const animeReducer = (state = initialstate, action) =>{
+export const magicReducer = (state = initialstate, action) =>{
     switch(action.type){
         default:
             return state
