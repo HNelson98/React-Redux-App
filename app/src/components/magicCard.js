@@ -1,10 +1,14 @@
 import React from 'react'
-import MagicInfo from './magicInfo'
 
-function MagicCard() {
+
+function MagicCard(props) {
 
     return(
-        <MagicInfo />
+        <div className= "card">
+            <h2 className= "name">{props.name}</h2>
+            <img className= "cardImage" src={props.image} alt="CardImage"/>
+    <p className="info">Cost:{props.cost}<br/> {props.text} <br/> {props.power}/{props.toughness} </p>
+        </div>
     )
     
 }
