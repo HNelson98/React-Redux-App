@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  
+}
+
+h1{
+  color: aquamarine;
+}
+.cardList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: dodgerblue;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 15px;
+    /* cursor: pointer; */
+}
